@@ -16,7 +16,7 @@ customElements.define('compodoc-menu', class extends HTMLElement {
         <nav>
             <ul class="list">
                 <li class="title">
-                    <a href="index.html" data-type="index-link">Apttus Digital Commerce Summer &#x27;20</a>
+                    <a href="index.html" data-type="index-link">Apttus Digital Commerce Winter &#x27;20</a>
                 </li>
 
                 <li class="divider"></li>
@@ -272,13 +272,13 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 <a href="modules/TableModule.html" data-type="entity-link">TableModule</a>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
-                                            'data-target="#components-links-module-TableModule-29529278acfc70affc919791557d9cf2"' : 'data-target="#xs-components-links-module-TableModule-29529278acfc70affc919791557d9cf2"' }>
+                                            'data-target="#components-links-module-TableModule-8df234da61a9434421f6c374be5fdb2b"' : 'data-target="#xs-components-links-module-TableModule-8df234da61a9434421f6c374be5fdb2b"' }>
                                             <span class="icon ion-md-cog"></span>
                                             <span>Components</span>
                                             <span class="icon ion-ios-arrow-down"></span>
                                         </div>
-                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-TableModule-29529278acfc70affc919791557d9cf2"' :
-                                            'id="xs-components-links-module-TableModule-29529278acfc70affc919791557d9cf2"' }>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-TableModule-8df234da61a9434421f6c374be5fdb2b"' :
+                                            'id="xs-components-links-module-TableModule-8df234da61a9434421f6c374be5fdb2b"' }>
                                             <li class="link">
                                                 <a href="components/TableComponent.html"
                                                     data-type="entity-link" data-context="sub-entity" data-context-id="modules">TableComponent</a>
@@ -547,9 +547,6 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 <a href="classes/OrderTaxBreakup.html" data-type="entity-link">OrderTaxBreakup</a>
                             </li>
                             <li class="link">
-                                <a href="classes/OrderTaxBreakupService.html" data-type="entity-link">OrderTaxBreakupService</a>
-                            </li>
-                            <li class="link">
                                 <a href="classes/PartnerMockUserService.html" data-type="entity-link">PartnerMockUserService</a>
                             </li>
                             <li class="link">
@@ -668,9 +665,6 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                             </li>
                             <li class="link">
                                 <a href="classes/ProposalTaxBreakup.html" data-type="entity-link">ProposalTaxBreakup</a>
-                            </li>
-                            <li class="link">
-                                <a href="classes/ProposalTaxBreakupService.html" data-type="entity-link">ProposalTaxBreakupService</a>
                             </li>
                             <li class="link">
                                 <a href="classes/Quote.html" data-type="entity-link">Quote</a>
@@ -806,6 +800,9 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                     <a href="injectables/OrderService.html" data-type="entity-link">OrderService</a>
                                 </li>
                                 <li class="link">
+                                    <a href="injectables/OrderTaxBreakupService.html" data-type="entity-link">OrderTaxBreakupService</a>
+                                </li>
+                                <li class="link">
                                     <a href="injectables/OrderTaxService.html" data-type="entity-link">OrderTaxService</a>
                                 </li>
                                 <li class="link">
@@ -861,6 +858,9 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 </li>
                                 <li class="link">
                                     <a href="injectables/PromotionService.html" data-type="entity-link">PromotionService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="injectables/ProposalTaxBreakupService.html" data-type="entity-link">ProposalTaxBreakupService</a>
                                 </li>
                                 <li class="link">
                                     <a href="injectables/ProposalTaxService.html" data-type="entity-link">ProposalTaxService</a>

@@ -50,16 +50,16 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                         </div>
                         <ul class="links collapse " ${ isNormalMode ? 'id="additional-pages"' : 'id="xs-additional-pages"' }>
                                     <li class="link ">
-                                        <a href="additional-documentation/upgrade-ecommerce-template-from-winter-v1903-to-summer-v2002.html" data-type="entity-link" data-context-id="additional">Upgrade ecommerce template from Winter v1903 to Summer v2002</a>
+                                        <a href="additional-documentation/upgrade-ecommerce-template-from-winter-v1903-to-summer-v2002-patch1.html" data-type="entity-link" data-context-id="additional">Upgrade ecommerce template from Winter v1903 to Summer v2002 Patch1</a>
                                     </li>
                                     <li class="link ">
-                                        <a href="additional-documentation/upgrade-partner-commerce-template-from-winter-v1903-to-summer-v2002.html" data-type="entity-link" data-context-id="additional">Upgrade partner commerce template from Winter v1903 to Summer v2002</a>
+                                        <a href="additional-documentation/upgrade-partner-commerce-template-from-winter-v1903-to-summer-v2002-patch1.html" data-type="entity-link" data-context-id="additional">Upgrade partner commerce template from Winter v1903 to Summer v2002 Patch1</a>
                                     </li>
                                     <li class="link ">
-                                        <a href="additional-documentation/upgrade-ecommerce-template-from-spring-2020-to-summer-2020.html" data-type="entity-link" data-context-id="additional">Upgrade ecommerce template from Spring 2020 to Summer 2020</a>
+                                        <a href="additional-documentation/upgrade-ecommerce-template-from-summer-2020-patch1-to-winter-2020.html" data-type="entity-link" data-context-id="additional">Upgrade ecommerce template from Summer 2020 Patch1 to Winter 2020</a>
                                     </li>
                                     <li class="link ">
-                                        <a href="additional-documentation/upgrade-partner-commerce-template-from-spring-2020-to-summer-2020.html" data-type="entity-link" data-context-id="additional">Upgrade partner commerce template from Spring 2020 to Summer 2020</a>
+                                        <a href="additional-documentation/upgrade-partner-commerce-template-from-summer-2020-patch1-to-winter-2020.html" data-type="entity-link" data-context-id="additional">Upgrade partner commerce template from Summer 2020 Patch1 to Winter 2020</a>
                                     </li>
                         </ul>
                     </li>

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Apttus Digital Commerce Winter &#x27;20</title>
+        <title>Conga Digital Commerce Winter &#x27;20</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,7 +14,7 @@
     <body>
 
         <div class="navbar navbar-default navbar-fixed-top visible-xs">
-            <a href="../" class="navbar-brand">Apttus Digital Commerce Winter &#x27;20</a>
+            <a href="../" class="navbar-brand">Conga Digital Commerce Winter &#x27;20</a>
             <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
         </div>
 
@@ -134,9 +134,6 @@
                             </li>
                             <li>
                                 <a href="#removeCartItems">removeCartItems</a>
-                            </li>
-                            <li>
-                                <a href="#rePriceCart">rePriceCart</a>
                             </li>
                             <li>
                                 <a href="#setCartActive">setCartActive</a>
@@ -946,7 +943,7 @@ export class MyComponent implements OnInit{
             </tr>
             <tr>
                 <td class="col-md-4">
-<code>priceCart(pricingMode)</code>
+<code>priceCart(pricingMode: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
                 </td>
             </tr>
 
@@ -978,18 +975,26 @@ export class MyComponent implements OnInit{
                             <thead>
                                 <tr>
                                     <td>Name</td>
+                                    <td>Type</td>
                                     <td>Optional</td>
+                                    <td>Default value</td>
                                     <td>Description</td>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>pricingMode</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
 
                                     <td>
                                         No
                                     </td>
 
+                                    <td>
+                                        <code>this.configurationService.get(&#x27;pricingMode&#x27;)</code>
+                                    </td>
 
                                     <td>
                                         <p>Pass the pricing mode you want to run pricing with. It can be turbo OR default pricing.</p>
@@ -1036,7 +1041,7 @@ export class MyComponent implements OnInit{
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-description"><p>Refreshes a cart based on the given id.</p>
+                    <div class="io-description"><p>Price active cart and publishing its state to all subscribing components.</p>
 </div>
 
                     <div class="io-description">
@@ -1238,41 +1243,6 @@ export class MyComponent implements OnInit{
                     </div>
                     <div class="io-description">
                         
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="rePriceCart"></a>
-                    <span class="name">
-                        <b>
-                            rePriceCart
-                        </b>
-                        <a href="#rePriceCart"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
-<code>rePriceCart()</code>
-                </td>
-            </tr>
-
-
-
-
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-description"><p>Price active cart and publishing its state to all subscribing components.</p>
-</div>
-
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
-
                     </div>
                 </td>
             </tr>
